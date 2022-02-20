@@ -1,0 +1,65 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(151, 65, 108);
+    color:#ddd;
+}
+
+.logo{
+    width:300px;
+    height:300px;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.descriçao{
+    width: 300px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+.duraçao{
+    width:300px;
+    margin-top: 25px;
+}
+
+.barra{
+    width:300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+progress{
+    height: 6px;
+    width:50%;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color:#eee ;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.tempo{
+    display:flex;
+    width:300px;
+    justify-content:space-between;
+}
