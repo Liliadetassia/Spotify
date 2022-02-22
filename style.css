@@ -28,7 +28,7 @@ h2{
     margin-bottom: 5px;
 }
 
-.duraçao{
+.duracao{
     width:300px;
     margin-top: 25px;
 }
@@ -61,6 +61,7 @@ progress{
     display:flex;
     width:300px;
     justify-content:space-between;
+    margin-top: 10px;
 }
 
 .player{
